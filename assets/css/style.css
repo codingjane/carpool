@@ -1,0 +1,121 @@
+
+div #container{
+	
+	width:800px;
+	height:850px;
+	margin:0px auto;
+	border:1px solid black;
+	border-radius: 5px;
+	padding:0px;
+}
+
+	body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, 
+				Helvetica, sans-serif;
+	font-size:12px;
+	}
+
+	.myform{
+		margin:10px auto;
+		width:900px;
+		padding:14px;
+		border:solid 1px #b7ddf2;
+		background:#ebf4fb;
+		}
+
+	input{
+		float:left;
+		font-size:12px;
+		padding:4px 2px;
+		border:solid 1px #aacfe4;
+		width:200px;
+		margin:2px 0 20px 10px;
+		}
+
+		label{
+			display:block;
+			font-weight:bold;
+			text-align:right;
+			width:140px;
+			float:left;
+			}
+
+		.register_btn {
+			margin-top: 50px;
+			display: inline;
+	}
+
+
+#login_form{
+	
+	width:400px;
+	height:250px;
+}
+
+h1{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:30px;
+}
+
+p{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+}
+
+#menu{
+    height:50px;
+}
+
+#menu ul{
+    list-style-type:none;
+    margin-left:0px;
+}
+#menu li{
+    float:left;
+    padding:10px;
+}
+
+#footer{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+}
+
+/*search button from bootstrap */
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
